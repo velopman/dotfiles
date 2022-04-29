@@ -1,0 +1,33 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.trimAutoWhitespace": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "*/**/*.pyc": true,
+        "*/**/__pycache__": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "workbench.settings.editor": "json",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "[javascript]": {
+        "editor.rulers": [
+            125
+        ]
+    },
+    "[python]": {
+        "editor.rulers": [
+            72,
+            79
+        ]
+    },
+    "workbench.editor.untitled.hint": "hidden",
+    "security.workspace.trust.untrustedFiles": "open"
+}
