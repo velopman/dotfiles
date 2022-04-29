@@ -1,5 +1,12 @@
 #!/bin/bash
 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install --cask firefox
+brew install --cask 1password
+brew install --cask visual-studio-code
+brew install --cask spotify
+brew install --cask godot
+
 mv ~/.zprofile ~/.zprofile-old
 ln -s ~/dotfiles/.zprofile ~/.zprofile
 
